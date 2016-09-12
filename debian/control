@@ -1,0 +1,19 @@
+Source: xebian-artwork
+Section: x11
+Priority: optional
+Maintainer: Unit 193 <unit193@xebian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+
+Package: xebian-artwork
+Architecture: all
+Depends: ${misc:Depends}, libnewt0.52 (>= 0.52.11-2)
+Recommends: xebian-wallpapers
+Description: Xebian themes and artwork
+ This package contains Xebian themes and artwork.
+
+Package: xebian-wallpapers
+Architecture: all
+Depends: ${misc:Depends}
+Description: Xebian wallpapers
+ This package contains the default wallpapers for Xebian.

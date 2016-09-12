@@ -1,0 +1,37 @@
+xebian-artwork (16.09) unstable; urgency=medium
+
+  * d/control:
+    - Drop shimmer-themes, elementary-xfce-icon-theme from depends.
+    - Downgrade xebian-wallpapers to recommends.
+  * usr/share/gtksourceview-2.0/styles/xebian-light.xml,
+    usr/share/xfce4/terminal/colorschemes/xebian-light.theme:
+    - Sync with upstream.
+      + Change the selection color background for a darker one in
+        the Xebian light themes.
+
+ -- Unit 193 <unit193@xebian.org>  Mon, 12 Sep 2016 12:08:57 -0400
+
+xebian-artwork (16.04) unstable; urgency=medium
+
+  * usr/share/pixmaps/xebian-logo.*: Add Xebian icons.
+  * usr/share/pixmaps/xubuntu-logo*: Drop, now that we have our own.
+  * d/copyright: Update to reflect above changes.
+  * Update standards-version to 3.9.8.
+
+ -- Unit 193 <unit193@xebian.org>  Sun, 17 Apr 2016 14:14:26 -0400
+
+xebian-artwork (16.02) unstable; urgency=medium
+
+  * d/control: Add dep on elementary-xfce-icon-theme.
+  * u/s/xfce4/backdrops: Drop old wallpapers, add Xebian ones and an extra.
+  * d/copyright: Update for new images.
+  * d/xebian-wallpapers.links:
+    - Set default to u/s/xfce4/backdrops/xebian_16:10.png
+
+ -- Unit 193 <unit193@xebian.org>  Mon, 01 Feb 2016 19:46:01 -0500
+
+xebian-artwork (15.04) unstable; urgency=medium
+
+  * Fork package for Xebian.
+
+ -- Unit 193 <unit193@xebian.org>  Sun, 10 May 2015 20:12:25 -0400
