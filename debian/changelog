@@ -1,3 +1,19 @@
+xebian-artwork (23.02) unstable; urgency=medium
+
+  * u/s/xfce4/backdrops, d/copyright: Drop excess wallpaper.
+  * d/xebian-artwork.(postinst,postrm):
+    - Drop newt-palette setting, useless in Debian.
+  * d/xebian-artwork.(install,links):
+    - Set up gtksourceview styles using debhelper symlinks.
+  * d/compat, d/control:
+    - Drop d/compat in favor of debhelper-compat, bump to 13.
+  * d/control: R³: no.
+  * d/rules: Drop dh_gconf override, unused since long ago.
+  * d/copyright: Update attribution.
+  * Update Standards-Version to 4.6.2.
+
+ -- Unit 193 <unit193@xebian.org>  Sat, 04 Feb 2023 01:11:56 -0500
+
 xebian-artwork (16.09) unstable; urgency=medium
 
   * d/control:
