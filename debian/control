@@ -3,6 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Unit 193 <unit193@xebian.org>
 Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
 Standards-Version: 3.9.8
 
 Package: xebian-artwork
