@@ -7,7 +7,7 @@ Standards-Version: 3.9.8
 
 Package: xebian-artwork
 Architecture: all
-Depends: ${misc:Depends}, libnewt0.52 (>= 0.52.11-2)
+Depends: ${misc:Depends}
 Recommends: xebian-wallpapers
 Description: Xebian themes and artwork
  This package contains Xebian themes and artwork.
