@@ -10,11 +10,6 @@ Files: usr/share/xfce4/backdrops/*
 Copyright: 2016, Christopher Bayliss <christopher.j.bayliss@gmail.com>
 License: CC-BY-SA-3.0
 
-Files: usr/share/xfce4/backdrops/lamborghini-aventador.jpg
-Copyright: 2015, Ali Naqi <mail@alinaqi.com>
-License: CC0
-Comment: https://www.pexels.com/photo/sports-car-wheels-lamborghini-aventador-16157/
-
 Files: usr/share/gtksourceview-2.0/* usr/share/xfce4/terminal/*
 Copyright: 2015, Pasi Lallinaho <open@knome.fi>
 License: CC-BY-SA-3.0
@@ -56,7 +51,7 @@ License: CC-BY-SA-3.0
  California, 94105, USA.
 
 License: CC0
- To the extent possible under law, the author(s) have dedicated all copyright
+ To the extent possible under law, the author(s) have dedicated all copyright 
  and related and neighboring rights to this software to the public domain
  worldwide. This software is distributed without any warranty.
  .
